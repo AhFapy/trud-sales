@@ -7,9 +7,12 @@ import { SectionWrapper } from "../hoc"
 import { projects } from "../constants"
 import {fadeIn, textVariant} from "../utils/motion"
 import clickImg from "../assets/click-img.webp"
+import Workflow from "./Workflow/Workflow"
+import FAQComponent from "./FAQ/FAQComponent"
 
   
 const ProjectCard = ({index, name, description, tags, image, source_code_link, handleWindow}) => (
+  
   <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
     <Tilt options={{
       max: 45,
@@ -43,14 +46,21 @@ const Works = () => {
     window.open(link)
   }
 
+  const faqs = [
+    { question: '¿Qué es React?', answer: 'React es una biblioteca de JavaScript para construir interfaces de usuario.' },
+    { question: '¿Qué es Tailwind CSS?', answer: 'Tailwind CSS es un framework de CSS de utilidad para crear diseños personalizados rápidamente.' },
+    { question: '¿Cómo se usa este componente FAQ?', answer: 'Simplemente haz clic en una pregunta para ver la respuesta.' },
+  ];
+
   return (
     <>
     <motion.div variants={textVariant()} className='flex justify-center items-center flex-col'>
       <p className={`${styles.sectionSubText} text-center`}>My Work</p>
-      <h2 className={`${styles.sectionHeadText} text-center`}>Projects.</h2>
+      <h2 className={`${styles.sectionHeadText} text-center`}>Nuestra metodología de trabajo.</h2>
     </motion.div>
+    <Workflow/>
 
-    <div className="w-full flex justify-center">
+    {/* <div className="w-full flex justify-center">
       <motion.p
       variants={fadeIn("", "", 0.1, 1)}
       className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px] text-center"
@@ -66,7 +76,10 @@ const Works = () => {
         <ProjectCard key={`project-${index}`} index={index} {...project} handleWindow={handleWindow}/> 
       )
       )}
-    </div> 
+    </div>  */}
+      {faqs.map((faq, index) => (
+        <FAQComponent  key={index} question={faq.question} answer={faq.answer} />
+      ))}
 
     </>
   )
