@@ -47,18 +47,22 @@ const Works = () => {
   }
 
   const faqs = [
-    { question: '¿Qué es React?', answer: 'React es una biblioteca de JavaScript para construir interfaces de usuario.' },
-    { question: '¿Qué es Tailwind CSS?', answer: 'Tailwind CSS es un framework de CSS de utilidad para crear diseños personalizados rápidamente.' },
-    { question: '¿Cómo se usa este componente FAQ?', answer: 'Simplemente haz clic en una pregunta para ver la respuesta.' },
+    { question: '¿Por qué nosotros?', answer: 'Simplemente haz clic en una pregunta para ver la respuesta.' },
+    { question: '¿Trabajáis con todo tipo de perfiles?', answer: 'React es una biblioteca de JavaScript para construir interfaces de usuario.' },
+    { question: '¿Puedo trabajar con vosotros?', answer: 'Tailwind CSS es un framework de CSS de utilidad para crear diseños personalizados rápidamente.' },
+    { question: 'Que experiencia tiene TRUD?', answer: 'Simplemente haz clic en una pregunta para ver la respuesta.' },
+    { question: '¿Que necesitamos para trabajar contigo?', answer: 'React es una biblioteca de JavaScript para construir interfaces de usuario.' },
+    { question: '¿Cómo puedo empezar a trabajar con TRUD?', answer: 'Tailwind CSS es un framework de CSS de utilidad para crear diseños personalizados rápidamente.' },
+    { question: 'Quiero formarme como Appt. Setter/Closer', answer: 'Simplemente haz clic en una pregunta para ver la respuesta.' },
   ];
 
   return (
     <>
-    <motion.div variants={textVariant()} className='flex justify-center items-center flex-col'>
+    <motion.div variants={textVariant()} className='flex justify-center items-center flex-col mb-[10rem]' >
       <p className={`${styles.sectionSubText} text-center`}>My Work</p>
-      <h2 className={`${styles.sectionHeadText} text-center`}>Nuestra metodología de trabajo.</h2>
+      <h2 className={`${styles.sectionHeadText} text-center`}>Nuestra metodología de trabajo</h2>
+      <Workflow/>
     </motion.div>
-    <Workflow/>
 
     {/* <div className="w-full flex justify-center">
       <motion.p
@@ -77,10 +81,25 @@ const Works = () => {
       )
       )}
     </div>  */}
+      <h2 className={`${styles.sectionHeadText} text-center mb-[2rem]`}>Preguntas Frecuentes</h2>
       {faqs.map((faq, index) => (
         <FAQComponent  key={index} question={faq.question} answer={faq.answer} />
       ))}
 
+      <div className="w-full">
+      <h2 className={`${styles.sectionSubText} text-center mb-[2rem]`}>Equipo</h2>        
+      <h2 className={`${styles.sectionHeadText} text-center mb-[2rem]`}>Los Pilares de TRUD</h2>  
+      <div className="w-full flex justify-center items-center">
+        <div className="w-[50%] flex justify-center items-center flex-col">
+          <div className="w-[25rem] h-[30rem] border-white border-2 rounded"></div>
+          <h2 className={`${styles.sectionSubText} text-center mt-[1rem]`}>Javier Marco<br/> director de mamawebos</h2>        
+        </div>
+        <div className="w-[50%] flex justify-center items-center flex-col">
+          <div className="w-[25rem] h-[30rem] border-white border-2 rounded"></div>
+          <h2 className={`${styles.sectionSubText} text-center mt-[1rem]`}>José Gómez<br/> mamawebo nº 1  </h2>        
+        </div>
+      </div>      
+      </div>
     </>
   )
 }
