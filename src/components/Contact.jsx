@@ -26,14 +26,14 @@ const Contact = () => {
       className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
       >
         <p className={styles.sectionSubText}>
-          Get in touch
-          <h3 className={styles.sectionHeadText}>Contact.</h3>
+          ¿Quieres empezar a aumentar tus ventas? Comencemos.
+          <h3 className={styles.sectionHeadText}>Agenda Una Llamada Con Nosotros.</h3>
         </p>
         <div className="bg-none flex flex-row items-center">
-          <span className="sm:text-[6vw] lg:text-[3vw]">
+          {/* <span className="sm:text-[6vw] lg:text-[3vw]">
           <FontAwesomeIcon icon={faEnvelope} />
-          </span>
-          <p className="ml-[1rem]">ahelfa123@gmail.com</p>
+          </span> */}
+          <p className="ml-[1rem]">(calendly)</p>
         </div>
       </motion.div>
     </div>

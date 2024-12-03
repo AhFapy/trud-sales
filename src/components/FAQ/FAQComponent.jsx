@@ -9,7 +9,7 @@ const FAQItem = ({ question, answer }) => {
   };
 
   return (
-    <div className="w-full border border-black rounded-lg shadow-md mb-4 overflow-hidden">
+    <div className="w-full border border-[#00FF00] rounded-lg shadow-md mb-4 overflow-hidden">
       {/* Pregunta */}
       <div
         onClick={toggleAnswer}
@@ -22,7 +22,7 @@ const FAQItem = ({ question, answer }) => {
       {/* Respuesta (se muestra solo si isOpen es true) */}
       {isOpen && (
         <div className="bg-black p-4 border-t border-gray-300">
-          <p className="text-gray-700">{answer}</p>
+          <p className="text-white">{answer}</p>
         </div>
       )}
     </div>

@@ -1,4 +1,3 @@
-// Workflow.jsx
 import React, { useRef, useEffect, useState } from "react";
 import Node from "./Node";
 import "./workflow.css";
@@ -88,13 +87,13 @@ const Workflow = () => {
       </svg>
 
       {/* Nodos con fondo negro y texto blanco */}
-      <div className="flex flex-row items-start space-x-20 mb-10 pt-[2rem]">
-        <Node ref={nodeRefs[0]} text="Entrada de los Leads" className="node-style" style={{ marginTop: "0rem" }} />
-        <Node ref={nodeRefs[1]} text="Generar Necesidad" className="node-style" style={{ marginTop: "2rem", fontSize: "1.2rem" }} />
-        <Node ref={nodeRefs[2]} text="Paso 3" className="node-style" style={{ padding: "10px", marginTop: "-3rem" }} />
-        <Node ref={nodeRefs[3]} text="Paso 4" className="node-style" style={{ padding: "10px", marginTop: "1.5rem" }} />
-        <Node ref={nodeRefs[4]} text="Paso 5" className="node-style" style={{ padding: "10px", marginTop: "-1rem" }} />
-        <Node ref={nodeRefs[5]} text="VENTA" className="box" style={{ padding: "10px", marginTop: "2rem" }} />
+      <div className="flex flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row items-center justify-center sm:space-x-6 md:space-x-8 lg:space-x-12 xl:space-x-16 space-y-6 sm:space-y-6 md:space-y-6 lg:space-y-0 mb-10 pt-[2rem]">
+        <Node ref={nodeRefs[0]} text="Análisis Inicial" className="node-style" style={{ marginTop: "0rem" }} />
+        <Node ref={nodeRefs[1]} text="Planteamiento estratégico" className="node-style" style={{ marginTop: "2rem", fontSize: "1.2rem" }} />
+        <Node ref={nodeRefs[2]} text="Implementación del sistema" className="node-style" style={{ padding: "10px", marginTop: "-3rem" }} />
+        <Node ref={nodeRefs[3]} text="Evaluación de resultados" className="node-style" style={{ padding: "10px", marginTop: "1.5rem" }} />
+        <Node ref={nodeRefs[4]} text="Optimización operativa" className="node-style" style={{ padding: "10px", marginTop: "-1rem" }} />
+        <Node ref={nodeRefs[5]} text="VENTAS" className="box" style={{ color: "#00FF00", padding: "10px", marginTop: "2rem" }} />
       </div>
 
       {/* Estilos para los nodos */}
@@ -103,13 +102,74 @@ const Workflow = () => {
           background-color: black;
           color: white;
           border: 2px solid green;
-          padding: 10px;
-          transition: background-color 0.3s, color 0.3s; /* Añadimos la transición */
+          padding: 15px;
+          width: auto;
+          height: auto;
+          min-width: 150px;
+          min-height: 100px;
+          max-width: 220px; /* Hacemos que los nodos sean un poco más pequeños en resoluciones grandes */
+          max-height: 200px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          transition: background-color 0.3s, color 0.3s;
         }
 
         .node-style:hover {
           background-color: white;
           color: black;
+        }
+
+        .box {
+          margin: max(1rem, 3vw);
+          border: 0.35rem solid;
+          border-image: conic-gradient(from var(--angle), var(--c2), var(--c1) 0.1turn, var(--c1) 0.15turn, var(--c2) 0.25turn) 30;
+          animation: borderRotate var(--d) linear infinite forwards;
+          background-color: black;
+          color: white;
+          padding: 10px;
+        }
+
+        .box:nth-child(2) {
+          border-image: radial-gradient(ellipse at var(--gradX) var(--gradY), var(--c1), var(--c1) 10%, var(--c2) 40%) 30;
+          animation: borderRadial var(--d) linear infinite forwards;
+        }
+
+        /* Ajustes en pantallas pequeñas */
+        @media (max-width: 1100px) {
+          .node-style {
+            width: auto;
+            height: auto;
+            min-width: 120px;
+            min-height: 80px;
+            max-width: 180px;
+          }
+
+          .box {
+            width: auto;
+            height: auto;
+            min-width: 120px;
+            min-height: 80px;
+            max-width: 180px;
+          }
+        }
+
+        /* Más compactación en pantallas muy pequeñas (móviles) */
+        @media (max-width: 480px) {
+          .node-style {
+            width: 100%;
+            min-width: 120px;
+            min-height: 60px;
+            max-width: 150px;
+          }
+
+          .box {
+            width: 100%;
+            min-width: 120px;
+            min-height: 60px;
+            max-width: 150px;
+          }
         }
       `}</style>
     </div>

@@ -94,31 +94,7 @@ const About = () => {
         <ServiceCard key={service.title} index={index} {...service}/>
       ))}
     </div> */}
-    <div className="relative flex flex-col items-start pl-10" id="timeline">
-      {/* Línea vertical con gradiente dinámico */}
-      <div
-        className="absolute left-5 top-0 bottom-0 w-px"
-        style={{
-          background: `linear-gradient(to bottom, #3498db ${scrollProgress * 100}%, #ddd ${scrollProgress * 100}%)`
-        }}
-      ></div>
 
-      {events.map((event, index) => (
-        <div key={index} className="relative flex items-start mb-10">
-          {/* Punto en cada evento */}
-          <div className="absolute left-5 top-1 w-3 h-3 bg-blue-500 rounded-full border-2 border-white"></div>
-
-          {/* Fecha del evento */}
-          <div className="absolute left-[-2rem] font-bold text-gray-600">{event.date}</div>
-
-          {/* Contenido del evento */}
-          <div className="bg-white shadow-lg rounded-lg p-4 ml-8 max-w-md">
-            <h3 className="font-semibold text-lg">{event.title}</h3>
-            <p className="text-gray-600">{event.description}</p>
-          </div>
-        </div>
-      ))}
-    </div>
 
     </motion.div>
 
