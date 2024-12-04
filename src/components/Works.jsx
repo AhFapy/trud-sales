@@ -14,6 +14,7 @@ import tatiana from "../assets/fotos-equipo/TATIANA.png"
 import Aida from "../assets/fotos-equipo/AIDA.png"
 import luis from "../assets/fotos-equipo/luis.png"
 import diana from "../assets/fotos-equipo/DIANA.jpg"
+import raul from "../assets/fotos-equipo/SERRANO.jpg"
 import clickImg from "../assets/click-img.webp"
 import Workflow from "./Workflow/Workflow"
 import FAQComponent from "./FAQ/FAQComponent"
@@ -36,7 +37,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
         <p className="mt-2 text-secondary text-[14px]">{description}</p>
       </div>
 
-      <div className="mt-4 flex flex-wrap gap-2">
+      <div className="mt-4 flex flex-wrap">
         {tags.map((tag) => (
           <p key={tag.name} className={`text-[14px] ${tag.color}`}>#{tag.name}</p>
         ))}
@@ -72,77 +73,84 @@ const Works = () => {
         <h2 className={`${styles.sectionHeadText} text-center mb-[2rem]`}>Los Pilares de TRUD</h2>
 
         {/* Javi & José en una fila de 2 con márgenes y espacio entre ellas */}
-        <div className="w-full flex justify-around items-center mb-[3.5rem] gap-8 flex-wrap">
+        <div className="w-full flex justify-around items-center mb-[3.5rem] flex-wrap" id="equipo-wrap">
           <div className="w-[45%] sm:w-[20%] flex justify-center items-center flex-col mb-[2rem]">
-            <div className="w-[400px] h-[400px] border-white border-2 rounded flex justify-center items-center overflow-hidden">
+            <div className="w-[400px] h-[400px] border-white border-2 rounded flex justify-center items-center overflow-hidden" id="equipo-img">
               <img className="w-full" src={javi} alt="Javier Marco" />
             </div>
-            <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`}>Javier Marco<br />Co-Founder</h2>
+            <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">Javier Marco<br />Co-Founder</h2>
           </div>
           <div className="w-[45%] sm:w-[20%] flex justify-center items-center flex-col mb-[2rem]">
-            <div className="w-[400px] h-[400px] border-white border-2 rounded flex justify-center items-center overflow-hidden">
+            <div className="w-[400px] h-[400px] border-white border-2 rounded flex justify-center items-center overflow-hidden" id="equipo-img">
               <img className="w-full" src={jose} alt="José Gómez" />
             </div>
-            <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`}>José Gómez<br />Co-Founder</h2>
+            <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">José Gómez<br />Co-Founder</h2>
           </div>
         </div>
 
         {/* Resto del equipo en filas de 3 con espacio entre las columnas */}
-        <div className="w-full flex flex-wrap justify-between gap-8 mb-[3.5rem]">
+        <div className="w-full flex flex-wrap justify-between mb-[3.5rem]" id="equipo-wrap">
           {/* Inés, Ahmed, Monica */}
           <div className="w-[30%] flex justify-center items-center flex-col mb-[2rem]">
-            <div className="w-[375px] h-[375px] border-white border-2 rounded flex justify-center items-center overflow-hidden">
+            <div className="w-[375px] h-[375px] border-white border-2 rounded flex justify-center items-center overflow-hidden" id="equipo-img">
               <img className="w-full rounded" src={ines} alt="Inés Lobato" />
             </div>
-            <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`}>Inés Lobato<br />Project Manager</h2>
+            <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">Inés Lobato<br />Project Manager</h2>
           </div>
 
           <div className="w-[30%] flex justify-center items-center flex-col mb-[2rem]">
-            <div className="w-[375px] h-[375px] border-white border-2 rounded flex justify-center items-center overflow-hidden">
+            <div className="w-[375px] h-[375px] border-white border-2 rounded flex justify-center items-center overflow-hidden" id="equipo-img">
               <img className="w-full rounded" src={ahfa} alt="Ahmed Mirza" />
             </div>
-            <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`}>Ahmed Mirza<br />Director Creativo</h2>
+            <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">Ahmed Mirza<br />Director Creativo</h2>
           </div>
 
           <div className="w-[30%] flex justify-center items-center flex-col mb-[2rem]">
-            <div className="w-[375px] h-[375px] border-white border-2 rounded flex justify-center items-center overflow-hidden">
+            <div className="w-[375px] h-[375px] border-white border-2 rounded flex justify-center items-center overflow-hidden" id="equipo-img">
               <img className="w-full rounded" src={monica} alt="Mónica Marco" />
             </div>
-            <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`}>Mónica Marco<br />Directora Comercial</h2>
+            <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">Mónica Marco<br />Directora Comercial</h2>
           </div>
         </div>
 
         {/* Tatiana, Aida, Luis */}
-        <div className="w-full flex flex-wrap justify-between gap-8 mb-[3.5rem]">
+        <div className="w-full flex flex-wrap justify-between mb-[3.5rem]" id="equipo-wrap">
           <div className="w-[30%] flex justify-center items-center flex-col mb-[2rem]">
-            <div className="w-[375px] h-[375px] border-white border-2 rounded flex justify-center items-center overflow-hidden">
+            <div className="w-[375px] h-[375px] border-white border-2 rounded flex justify-center items-center overflow-hidden" id="equipo-img">
               <img className="w-full rounded" src={tatiana} alt="Tatiana Martin" />
             </div>
-            <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`}>Tatiana Martin<br />Setter</h2>
+            <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">Tatiana Martin<br />Setter</h2>
           </div>
 
           <div className="w-[30%] flex justify-center items-center flex-col mb-[2rem]">
-            <div className="w-[375px] h-[375px] border-white border-2 rounded flex justify-center items-center overflow-hidden">
+            <div className="w-[375px] h-[375px] border-white border-2 rounded flex justify-center items-center overflow-hidden" id="equipo-img">
               <img className="w-full rounded" src={Aida} alt="Aida Monago" />
             </div>
-            <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`}>Aida Monago<br />Closer</h2>
+            <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">Aida Monago<br />Closer</h2>
           </div>
 
           <div className="w-[30%] flex justify-center items-center flex-col mb-[2rem]">
-            <div className="w-[375px] h-[375px] border-white border-2 rounded flex justify-center items-center overflow-hidden">
+            <div className="w-[375px] h-[375px] border-white border-2 rounded flex justify-center items-center overflow-hidden" id="equipo-img">
               <img className="w-full rounded" src={luis} alt="Luis de Pablos" />
             </div>
-            <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`}>Luis de Pablos<br />Closer</h2>
+            <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">Luis de Pablos<br />Closer</h2>
           </div>
         </div>
 
-        {/* Diana */}
-        <div className="w-full flex justify-center items-center mb-[3.5rem] gap-8">
-          <div className="w-full sm:w-[45%] md:w-[20%] flex justify-center items-center flex-col mb-[2rem]">
-            <div className="w-[400px] h-[400px] border-white border-2 rounded flex justify-center items-center overflow-hidden">
-              <img className="h-full rounded" src={diana} alt="Diana Salazar" />
+        {/* Diana y Serrano */}
+        <div className="w-full flex flex-wrap justify-around mb-[3.5rem]" id="equipo-wrap">
+          <div className="w-[30%] flex justify-center items-center flex-col mb-[2rem]">
+            <div className="w-[375px] h-[375px] border-white border-2 rounded flex justify-center items-center overflow-hidden" id="equipo-img">
+              <img className="w-full rounded" src={diana} alt="Tatiana Martin" />
             </div>
-            <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`}>Diana Salazar<br />Closer</h2>
+            <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">Diana Salazar<br />Closer</h2>
+          </div>
+
+          <div className="w-[30%] flex justify-center items-center flex-col mb-[2rem]">
+            <div className="w-[375px] h-[375px] border-white border-2 rounded flex justify-center items-center overflow-hidden" id="equipo-img">
+              <img className="w-full rounded" src={raul} alt="Luis de Pablos" />
+            </div>
+            <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">Raúl Serrano<br />Setter</h2>
           </div>
         </div>
 

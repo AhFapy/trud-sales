@@ -207,3 +207,50 @@
 .white-boder {
   border: 2px solid white;
 }
+
+@media only screen and (max-width: 1300px) {
+  #equipo-img {
+    width: 300px !important;
+    height: 300px !important;
+  }
+  #header-tech {
+    font-size: 3rem;
+    margin-top: 12rem;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  #equipo-img {
+    width: 200px !important;
+    height: 200px !important;
+
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #equipo-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #equipo-sub {
+    font-size: 15px;
+  }
+
+  #equipo-img {
+    width: 250px !important;
+    height: 250px !important;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #equipo-sub {
+    font-size: 10px;
+  }
+  /* #hero-header {
+    font-size: 1.5rem;
+  } */
+}
+
