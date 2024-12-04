@@ -254,3 +254,117 @@
   } */
 }
 
+/* Título */
+#header-tech {
+  font-size: clamp(2rem, 6vw, 4rem); /* Ajusta el tamaño del texto entre 2rem y 4rem */
+  text-align: center;
+}
+
+/* Contenedor principal (en el cual se ajusta el texto y la imagen) */
+#main-tech {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  height: auto;
+  color: white;
+}
+
+#main-tech .content p{
+  text-align: center !important;
+}
+
+/* Subtítulo y contenido */
+#main-tech .content {
+  text-align: left;
+  margin-top: 1rem;
+}
+
+#main-tech .content p {
+  font-size: clamp(1rem, 4vw, 1.5rem);
+  line-height: 1.5;
+  color: white;
+}
+
+/* Imagen de logo */
+#main-tech .logo-container {
+  width: 20rem;
+  height: 20rem;
+  margin-bottom: 2rem;
+}
+
+#main-tech .logo-container img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+/* Ajustes responsivos para pantallas pequeñas */
+@media (max-width: 768px) {
+  #main-tech {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  #main-tech .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  
+  #header-tech {
+    font-size: clamp(1.5rem, 8vw, 3rem); /* Ajusta el tamaño en pantallas más pequeñas */
+  }
+
+  #main-tech .logo-container {
+    width: 15rem;
+    height: 15rem;
+  }
+
+  #main-tech .content p {
+    font-size: 0.7rem;
+  }
+}
+
+/* Flecha de scroll (posicionamiento general) */
+#scroll-arrow {
+  position: absolute;
+  bottom: 32px;  /* Posición inicial */
+  width: 35px;
+  height: 64px;
+  border: 4px solid white;
+  border-radius: 3xl;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2px;
+}
+
+/* Ajuste de la flecha de scroll cuando la resolución sea menor a 400px */
+@media (max-width: 400px) {
+  #scrollDown {
+    bottom: 60px; /* Mueve la flecha más abajo */
+  }
+}
+
+@media (max-width: 480px) {
+  #node-style {
+    width: 100%;
+    min-width: 120px;
+    min-height: 60px;
+    max-width: 150px;
+    margin-top: 10rem; /* Aumento el margin-top para móviles */
+  }
+
+  #box {
+    width: 100%;
+    min-width: 120px;
+    min-height: 60px;
+    max-width: 150px;
+    margin-top: 10rem; /* Aumento el margin-top para móviles */
+  }
+}

@@ -87,13 +87,13 @@ const Workflow = () => {
       </svg>
 
       {/* Nodos con fondo negro y texto blanco */}
-      <div className="flex flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row items-center justify-center sm:space-x-6 md:space-x-8 lg:space-x-12 xl:space-x-16 space-y-6 sm:space-y-6 md:space-y-6 lg:space-y-0 mb-10 pt-[2rem]">
-        <Node ref={nodeRefs[0]} text="Análisis Inicial" className="node-style" style={{ marginTop: "0rem" }} />
-        <Node ref={nodeRefs[1]} text="Planteamiento estratégico" className="node-style" style={{ marginTop: "2rem", fontSize: "1.2rem" }} />
-        <Node ref={nodeRefs[2]} text="Implementación del sistema" className="node-style" style={{ padding: "10px", marginTop: "-3rem" }} />
-        <Node ref={nodeRefs[3]} text="Evaluación de resultados" className="node-style" style={{ padding: "10px", marginTop: "1.5rem" }} />
-        <Node ref={nodeRefs[4]} text="Optimización operativa" className="node-style" style={{ padding: "10px", marginTop: "-1rem" }} />
-        <Node ref={nodeRefs[5]} text="VENTAS" className="box" style={{ color: "#00FF00", padding: "10px", marginTop: "2rem" }} />
+      <div className="flex flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row items-center justify-center sm:space-x-6 md:space-x-8 lg:space-x-12 xl:space-x-16 space-y-6 sm:space-y-12 md:space-y-12 lg:space-y-0 mb-10 pt-[2rem]">
+        <Node ref={nodeRefs[0]} text="Análisis Inicial" className="node-style" style={{ transform: "translate(10px, 10px)" }} />
+        <Node ref={nodeRefs[1]} text="Planteamiento estratégico" className="node-style" style={{ transform: "translate(-5px, 15px)" }} />
+        <Node ref={nodeRefs[2]} text="Implementación del sistema" className="node-style" style={{ transform: "translate(20px, -10px)" }} />
+        <Node ref={nodeRefs[3]} text="Evaluación de resultados" className="node-style" style={{ transform: "translate(-15px, 20px)" }} />
+        <Node ref={nodeRefs[4]} text="Optimización operativa" className="node-style" style={{ transform: "translate(10px, -5px)" }} />
+        <Node ref={nodeRefs[5]} text="VENTAS" className="box" style={{ color: "#00FF00", transform: "translate(-20px, 10px)" }} />
       </div>
 
       {/* Estilos para los nodos */}
@@ -107,7 +107,7 @@ const Workflow = () => {
           height: auto;
           min-width: 150px;
           min-height: 100px;
-          max-width: 220px; /* Hacemos que los nodos sean un poco más pequeños en resoluciones grandes */
+          max-width: 220px;
           max-height: 200px;
           display: flex;
           justify-content: center;
@@ -155,20 +155,23 @@ const Workflow = () => {
           }
         }
 
-        /* Más compactación en pantallas muy pequeñas (móviles) */
+        /* Aumento de espacio entre los nodos en pantallas muy pequeñas (móviles) */
         @media (max-width: 480px) {
           .node-style {
             width: 100%;
             min-width: 120px;
             min-height: 60px;
             max-width: 150px;
+            margin-top: 4rem; /* Aumento del margin-top en móviles */
+            transform: translate(10px, 15px); /* Mantener las variaciones en las posiciones */
           }
 
           .box {
             width: 100%;
             min-width: 120px;
-            min-height: 60px;
             max-width: 150px;
+            margin-top: 5rem; /* Aumento del margin-top en móviles */
+            transform: translate(-10px, 10px); /* Mantener las variaciones en las posiciones */
           }
         }
       `}</style>

@@ -1,4 +1,4 @@
-import { useState, useRef } from "react"
+import { useState, useRef, useEffect } from "react"
 import { motion } from "framer-motion"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
@@ -18,6 +18,19 @@ const Contact = () => {
   const handleChange = (e) => {}
 
   const handleSubmit = (e) => {}
+  useEffect(() => {
+    // Cargar el script de Calendly
+    const script = document.createElement('script');
+    script.src = "https://assets.calendly.com/assets/external/widget.js";
+    script.async = true;
+    document.body.appendChild(script);
+    
+    return () => {
+      // Limpiar el script cuando el componente se desmonte
+      document.body.removeChild(script);
+    };
+  }, []);
+
 
   return (
     <div className="xl:mt-12 xl:flex-row flex-col-reverse flex-gap-10 overflow-hidden">
@@ -27,13 +40,17 @@ const Contact = () => {
       >
         <p className={styles.sectionSubText}>
           ¿Quieres empezar a aumentar tus ventas? Comencemos.
-          <h3 className={styles.sectionHeadText}>Agenda Una Llamada Con Nosotros.</h3>
+          <h3 className={styles.sectionHeadText}>Agenda Una Llamada Con Nosotros.<br/></h3>
         </p>
         <div className="bg-none flex flex-row items-center">
           {/* <span className="sm:text-[6vw] lg:text-[3vw]">
           <FontAwesomeIcon icon={faEnvelope} />
           </span> */}
-          <p className="ml-[1rem]">(calendly)</p>
+      <div 
+        className="calendly-inline-widget" 
+        data-url="https://calendly.com/josegomez-trudsales/sesion-de-cualificacion-trud-sales?primary_color=00ff27" 
+        style={{ minWidth: "320px", width:"100%", height: "700px" }}>
+      </div>
         </div>
       </motion.div>
     </div>

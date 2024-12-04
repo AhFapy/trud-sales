@@ -5,27 +5,21 @@ import logo from "../assets/logo.png";
 const Tech = () => {
   return (
     <>
-      <main id="main-tech" className="text-white flex flex-col justify-center items-center h-auto px-4">
-        {/* Título con tamaño responsivo que se adapta al tamaño de la pantalla */}
-        <h1
-          className={`${styles.sectionHeadText} text-center sm:text-[1rem] md:text-[2rem] lg:text-[4rem] 
-                      text-[clamp(2rem, 8vw, 4rem)] max-w-full`}
-          id="header-tech"
-        >
+      <main id="main-tech">
+        {/* Título con ajuste responsivo */}
+        <h1 id="header-tech" className="font-black">
           ¿Qué hacemos en <span className="text-[#00FF00]">Trud Sales</span>?<br />
         </h1>
 
-        {/* Contenedor principal con dos secciones: imagen y texto */}
+        {/* Contenedor con logo y texto */}
         <div className="flex flex-col sm:flex-row justify-center items-center w-full max-w-7xl h-auto">
           {/* Left side: Logo */}
-          <div className="w-full sm:w-[40%] flex justify-center items-center mb-[2rem] sm:mb-0">
-            <div className="w-[20rem] h-[20rem] sm:w-[30rem] sm:h-[30rem] flex justify-center items-center">
-              <img src={logo} alt="Trud Sales logo" className="w-full h-auto max-w-[100%]" />
-            </div>
+          <div className="logo-container flex justify-center items-center mb-[2rem] sm:mb-0">
+            <img src={logo} alt="Trud Sales logo" />
           </div>
 
           {/* Right side: Text Content */}
-          <div className="w-full sm:w-[60%] pt-[0.5rem] pl-[2rem] sm:pl-[0] flex justify-center items-start text-center sm:text-left">
+          <div className="content w-full sm:w-[60%] pt-[0.5rem] pl-[2rem] sm:pl-[0] flex justify-center items-start text-center sm:text-left">
             <div>
               <span className="text-xl text-[#00FF00] font-bold">¿QUÉ ES TRUD SALES?</span> <br /><br />
               <span className="text-base text-white font-medium">

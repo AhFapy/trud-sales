@@ -24,7 +24,7 @@ const Hero = () => {
           <img className='w-[10rem] sm:w-[12rem] md:w-[14rem] mb-5' src={logopng} alt="Logo de Trud Sales" />
           
           {/* Título con tamaño de fuente dinámico */}
-          <h1 className={`font-black text-white text-center text-[6vw] sm:text-[1rem] md:text-[3rem] lg:text-[5rem] whitespace-nowrap`}>
+          <h1 className={`font-black text-white text-center text-[clamp(2rem, 6vw, 4rem)] sm:text-[1rem] md:text-[3rem] lg:text-[5rem] whitespace-nowrap`}>
             Bienvenido a<span className='text-[#33FF33]'> Trud Sales</span>
           </h1>
 
@@ -35,14 +35,14 @@ const Hero = () => {
           <br />
           
           {/* Descripción */}
-          <p className={`${styles.sectionSubText} text-center mt-2 text-xs sm:text-sm md:text-base`}>
+          <p className={`${styles.sectionSubText} text-center mt-2 text-xs sm:text-sm md:text-base`} id='hero-subsubtext'>
             Somos la Solución Premium para escalar, multiplicar y automatizar tus ventas high-ticket mediante la implementación de procesos, sistemas y protocolos personalizados para tu negocio
           </p>
         </div>
       </div>
 
-      {/* Flecha de scroll */}
-      <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
+      {/* Flecha de scroll con posicionamiento dinámico en pantallas pequeñas */}
+      <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center' id='scrollDown'>
         <a href='#about'>
           <div className='w-[35px] h-[64px] rounded-3xl border-4 border-white flex justify-center items-start p-2' onClick={scrollDown}>
             <motion.div
