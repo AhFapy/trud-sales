@@ -88,40 +88,62 @@ const Works = () => {
           </div>
         </div>
 
-        {/* Resto del equipo en filas de 3 con espacio entre las columnas */}
-        <div className="w-full flex flex-wrap justify-between mb-[3.5rem]" id="equipo-wrap">
-          {/* Inés, Ahmed, Monica */}
-          <div className="w-[30%] flex justify-center items-center flex-col mb-[2rem]">
-            <div className="w-[375px] h-[375px] border-white border-2 rounded flex justify-center items-center overflow-hidden" id="equipo-img">
-              <img className="w-full rounded" src={ines} alt="Inés Lobato" />
+        <h2 className={`${styles.sectionHeadText} text-center mb-[1rem]`}>Directora Comercial</h2>
+        <h2 className={`${styles.sectionSubText} text-center mb-[2rem]`}>Encargada de la comunicación entre equipos, dirección de los mismos y decisión/toma de ordenes en Lanzamientos y Evergreens</h2>
+        <div className="w-full flex flex-wrap justify-around mb-[3.5rem]" id="equipo-wrap">
+          <div className="w-[30%] flex justify-center items-center flex-col mb-[2rem]"> 
+              <div className="w-[375px] h-[375px] border-white border-2 rounded flex justify-center items-center overflow-hidden" id="equipo-img">
+                <img className="w-full rounded" src={monica} alt="Mónica Marco" />
+              </div>
+              <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">Mónica Marco</h2>
             </div>
-            <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">Inés Lobato<br />Project Manager</h2>
           </div>
 
+          <h2 className={`${styles.sectionHeadText} text-center mb-[1rem]`}>Project Manager</h2>
+        <h2 className={`${styles.sectionSubText} text-center mb-[2rem]`}>Responsable de gestionar al equipo de directores comerciales, comunicación, distribución y organización de los mismos para mejorar su eficiencia, productividad y permitir una buen ecosistema de trabajo.</h2>
+        <div className="w-full flex flex-wrap justify-around mb-[3.5rem]" id="equipo-wrap">
+          <div className="w-[30%] flex justify-center items-center flex-col mb-[2rem]"> 
+              <div className="w-[375px] h-[375px] border-white border-2 rounded flex justify-center items-center overflow-hidden" id="equipo-img">
+                <img className="w-full rounded" src={ines} alt="Inés Lobato" />
+              </div>
+              <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">Inés Lobato</h2>
+            </div>
+          </div>
+
+
+        {/* Resto del equipo en filas de 3 con espacio entre las columnas */}
+        <h2 className={`${styles.sectionHeadText} text-center mb-[1rem]`}>Director de Procesos</h2>
+        <h2 className={`${styles.sectionSubText} text-center mb-[2rem]`}>Agente encargado de manejar todos los Flujos de trabajo, automatizaciones y encargos técnicos dentro de los proyectos.</h2>
+        <div className="w-full flex flex-wrap justify-around mb-[3.5rem]" id="equipo-wrap">
           <div className="w-[30%] flex justify-center items-center flex-col mb-[2rem]">
             <div className="w-[375px] h-[375px] border-white border-2 rounded flex justify-center items-center overflow-hidden" id="equipo-img">
               <img className="w-full rounded" src={ahfa} alt="Ahmed Mirza" />
             </div>
-            <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">Ahmed Mirza<br />Director Creativo</h2>
-          </div>
-
-          <div className="w-[30%] flex justify-center items-center flex-col mb-[2rem]">
-            <div className="w-[375px] h-[375px] border-white border-2 rounded flex justify-center items-center overflow-hidden" id="equipo-img">
-              <img className="w-full rounded" src={monica} alt="Mónica Marco" />
-            </div>
-            <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">Mónica Marco<br />Directora Comercial</h2>
+            <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">Ahmed Mirza</h2>
           </div>
         </div>
 
-        {/* Tatiana, Aida, Luis */}
-        <div className="w-full flex flex-wrap justify-between mb-[3.5rem]" id="equipo-wrap">
+        <h2 className={`${styles.sectionHeadText} text-center mb-[1rem]`}>Setters</h2>
+        <h2 className={`${styles.sectionSubText} text-center mb-[2rem]`}>Agentes encargados de llevar a una persona que interactua con el contenido de un infoproductor desde un punto A que apenas te conoce hasta un punto B que te acaba comprando gracias a una conversación persuasiva y una llamada organizada por ambas partes en la cual sale implicado un tercero (el closer)</h2>
+        <div className="w-full flex flex-wrap justify-around mb-[3.5rem]" id="equipo-wrap">
           <div className="w-[30%] flex justify-center items-center flex-col mb-[2rem]">
             <div className="w-[375px] h-[375px] border-white border-2 rounded flex justify-center items-center overflow-hidden" id="equipo-img">
               <img className="w-full rounded" src={tatiana} alt="Tatiana Martin" />
             </div>
-            <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">Tatiana Martin<br />Setter</h2>
+            <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">Tatiana Martin</h2>
           </div>
+          <div className="w-[30%] flex justify-center items-center flex-col mb-[2rem]">
+            <div className="w-[375px] h-[375px] border-white border-2 rounded flex justify-center items-center overflow-hidden" id="equipo-img">
+              <img className="w-full rounded" src={raul} alt="Luis de Pablos" />
+            </div>
+            <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">Raúl Serrano</h2>
+          </div>
+        </div>
 
+        {/* Tatiana, Aida, Luis */}
+        <h2 className={`${styles.sectionHeadText} text-center mb-[1rem]`}>Closers</h2>
+        <h2 className={`${styles.sectionSubText} text-center mb-[2rem]`}>Agente encargado de hacer una llamada de ventas con una persona que ha sido previamente cualificada, filtrada y concienciada por chat con el objetivo de cerrar un acuerdo beneficioso para ambas partes (infoproductor cuyo representante es el closer y el cliente potencial que se une a la llamada).</h2>
+        <div className="w-full flex flex-wrap justify-between mb-[3.5rem]" id="equipo-wrap">
           <div className="w-[30%] flex justify-center items-center flex-col mb-[2rem]">
             <div className="w-[375px] h-[375px] border-white border-2 rounded flex justify-center items-center overflow-hidden" id="equipo-img">
               <img className="w-full rounded" src={Aida} alt="Aida Monago" />
@@ -135,22 +157,11 @@ const Works = () => {
             </div>
             <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">Luis de Pablos<br />Closer</h2>
           </div>
-        </div>
-
-        {/* Diana y Serrano */}
-        <div className="w-full flex flex-wrap justify-around mb-[3.5rem]" id="equipo-wrap">
           <div className="w-[30%] flex justify-center items-center flex-col mb-[2rem]">
             <div className="w-[375px] h-[375px] border-white border-2 rounded flex justify-center items-center overflow-hidden" id="equipo-img">
               <img className="w-full rounded" src={diana} alt="Tatiana Martin" />
             </div>
             <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">Diana Salazar<br />Closer</h2>
-          </div>
-
-          <div className="w-[30%] flex justify-center items-center flex-col mb-[2rem]">
-            <div className="w-[375px] h-[375px] border-white border-2 rounded flex justify-center items-center overflow-hidden" id="equipo-img">
-              <img className="w-full rounded" src={raul} alt="Luis de Pablos" />
-            </div>
-            <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">Raúl Serrano<br />Setter</h2>
           </div>
         </div>
 
