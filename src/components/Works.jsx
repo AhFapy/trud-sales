@@ -75,10 +75,10 @@ const Works = () => {
         {/* Javi & José en una fila de 2 con márgenes y espacio entre ellas */}
         <div className="w-full flex justify-around items-center mb-[3.5rem] flex-wrap" id="equipo-wrap">
           <div className="w-[45%] sm:w-[20%] flex justify-center items-center flex-col mb-[2rem]">
-            <div className="w-[100px] h-[100px] border-white border-2 rounded-full flex justify-center items-center overflow-hidden" id="equipo-img">
+            <div className="w-[400px] h-[400px] z-10 border-white border-2 rounded-full flex justify-center items-center overflow-hidden" id="equipo-img">
               <img className="w-full rounded-full" src={javi} alt="Javier Marco" />
             </div>
-            <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">Javier Marco<br />Director Ejecutivo y Operacional</h2>
+            <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">Javier Marco<br />Co-Founder<br/>Director Ejecutivo y Operacional</h2>
           </div>
           <div className="w-[45%] sm:w-[20%] flex justify-center items-center flex-col mb-[2rem]">
             <div className="w-[400px] h-[400px] border-white border-2 rounded-full flex justify-center items-center overflow-hidden" id="equipo-img">
