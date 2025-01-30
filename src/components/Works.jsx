@@ -89,7 +89,7 @@ const Works = () => {
         </div>
 
         <h2 className={`${styles.sectionHeadText} text-center mb-[1rem]`}>Parte de Nuestro Equipo</h2>
-        <h2 className={`${styles.sectionSubText} text-center mb-[2rem]`}>Encargada de la comunicación entre equipos, dirección de los mismos y decisión/toma de ordenes en Lanzamientos y Evergreens</h2>
+        <h2 className={`${styles.sectionSubText} text-center mb-[2rem]`}>Encargados de la comunicación entre equipos, dirección de los mismos y decisión/toma de ordenes en Lanzamientos y Evergreens.</h2>
         <div className="w-full flex flex-wrap justify-center mb-[3.5rem]" id="equipo-wrap">
           <div className="w-[30%] flex justify-center items-center flex-col mb-[2rem]"> 
               <div className="w-[150px] h-[150px] border-white border-2 rounded-full flex justify-center items-center overflow-hidden" id="equipo-img">
