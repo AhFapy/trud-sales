@@ -13,6 +13,11 @@
   color-scheme: dark;
 }
 
+.color-verde {
+  color: #33FF33 !important;
+  font-size: 40px !important;
+}
+
 
 .hash-span {
   margin-top: -100px;

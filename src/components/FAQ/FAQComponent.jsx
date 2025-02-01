@@ -1,4 +1,3 @@
-// FAQItem.jsx
 import React, { useState } from 'react';
 
 const FAQItem = ({ question, answer }) => {
@@ -13,16 +12,19 @@ const FAQItem = ({ question, answer }) => {
       {/* Pregunta */}
       <div
         onClick={toggleAnswer}
-        className="cursor-pointer bg-black p-4 hover:bg-gray-200 hover:text-black transition-all duration-500 flex justify-between items-center"
+        className="cursor-pointer bg-black p-4 hover:bg-gray-800 hover:text-white transition-all duration-500 flex justify-between items-center"
       >
-        <h3 className="text-lg font-medium">{question}</h3>
-        <span className="text-xl font-bold">{isOpen ? '-' : '+'}</span>
+        <h3 className="text-lg font-medium text-white">{question}</h3>
+        <span className="text-xl font-bold text-white">{isOpen ? '-' : '+'}</span>
       </div>
 
       {/* Respuesta (se muestra solo si isOpen es true) */}
       {isOpen && (
-        <div className="bg-black p-4 border-t border-gray-300">
-          <p className="text-white">{answer}</p>
+        <div className="bg-black p-4 border-t border-[#00FF00]">
+          <p
+            className="text-white"
+            dangerouslySetInnerHTML={{ __html: answer }}
+          />
         </div>
       )}
     </div>
@@ -30,3 +32,4 @@ const FAQItem = ({ question, answer }) => {
 };
 
 export default FAQItem;
+
