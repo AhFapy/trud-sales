@@ -19,6 +19,7 @@ import adria from "../assets/fotos-equipo/adria.jpg"
 import amos from "../assets/fotos-equipo/Setters/amos.jpeg"
 import carolina from "../assets/fotos-equipo/Setters/Carolina.jpeg"
 import cristina from "../assets/fotos-equipo/Setters/cristina.jpg"
+import daniela from "../assets/fotos-equipo/Setters/daniela.jpg"
 import maika from "../assets/fotos-equipo/Setters/maika.jpg"
 import may from "../assets/fotos-equipo/Setters/may.jpg"
 import alba from "../assets/fotos-equipo/Closers/alba.jpg"
@@ -63,7 +64,7 @@ const Works = () => {
   const faqs = [
     { 
       question: '¿Por qué nosotros?', 
-      answer: 'Te hago yo la pregunta: ¿por qué seguir buscando si tienes aquí la solución?<br/><br/>Y si no la tienes es porque tienes dudas, ¿verdad?<br/><br/><a href="https://calendly.com/tu-enlace" target="_blank" style="text-decoration: underline; color: #00FF00;">Agenda</a> una breve llamada con alguien de nuestro equipo (no, no vamos a venderte, solo escucharte) y te resolveremos las dudas que tengas.' 
+      answer: 'Te hago yo la pregunta: ¿por qué seguir buscando si tienes aquí la solución?<br/><br/>Y si no la tienes es porque tienes dudas, ¿verdad?<br/><br/><a href="https://calendly.com/josegomez-trudsales/sesion-de-cualificacion-trud-sales" target="_blank" style="text-decoration: underline; color: #00FF00;">Agenda</a> una breve llamada con alguien de nuestro equipo (no, no vamos a venderte, solo escucharte) y te resolveremos las dudas que tengas.' 
     },
     { 
       question: '¿Trabajáis con todo tipo de perfiles?', 
@@ -71,11 +72,11 @@ const Works = () => {
     },
     { 
       question: '¿Puedo trabajar con vosotros?', 
-      answer: 'Somos muy selectivos con nuestros clientes. Nos gusta trabajar con proyectos, poner nuestra energía en ellos y escalarlos, mirando siempre el largo plazo más que el corto.<br/><br/>De todos modos, si crees que lo que ofrecemos puede ayudarte o resolver una necesidad actual tuya o de tu empresa, puedes agendar una llamada <a href="https://calendly.com/tu-enlace" target="_blank" style="text-decoration: underline; color: #00FF00;">aquí</a>.'
+      answer: 'Somos muy selectivos con nuestros clientes. Nos gusta trabajar con proyectos, poner nuestra energía en ellos y escalarlos, mirando siempre el largo plazo más que el corto.<br/><br/>De todos modos, si crees que lo que ofrecemos puede ayudarte o resolver una necesidad actual tuya o de tu empresa, puedes agendar una llamada <a href="https://calendly.com/josegomez-trudsales/sesion-de-cualificacion-trud-sales" target="_blank" style="text-decoration: underline; color: #00FF00;">aquí</a>.'
     },
     { 
       question: '¿Qué experiencia tiene Trud Sales?', 
-      answer: 'Trud Sales nace de una necesidad.<br/><br/>Una necesidad de abarcar más proyectos y ayudar a más personas a cerrar sus ventas.<br/><br/>En 2024 facturamos +1.500.000 para nuestros clientes entre los fundadores, y esperamos poder duplicarlo mínimamente este año.<br/><br/>No deberías haber entrado en “experiencia” para ver con quién hemos trabajado, sino hacerte la pregunta: ¿realmente pueden ayudarme?<br/><br/>Si la respuesta es sí, agenda una llamada con nosotros aquí abajo.<br/><br/>Si la respuesta es no, probablemente tengas dudas. En ese caso, agenda <a href="https://calendly.com/tu-enlace" target="_blank" style="text-decoration: underline; color: #00FF00;">aquí</a> y te las resolvemos.' 
+      answer: 'Trud Sales nace de una necesidad.<br/><br/>Una necesidad de abarcar más proyectos y ayudar a más personas a cerrar sus ventas.<br/><br/>En 2024 facturamos +1.500.000 para nuestros clientes entre los fundadores, y esperamos poder duplicarlo mínimamente este año.<br/><br/>No deberías haber entrado en “experiencia” para ver con quién hemos trabajado, sino hacerte la pregunta: ¿realmente pueden ayudarme?<br/><br/>Si la respuesta es sí, agenda una llamada con nosotros aquí abajo.<br/><br/>Si la respuesta es no, probablemente tengas dudas. En ese caso, agenda <a href="https://calendly.com/josegomez-trudsales/sesion-de-cualificacion-trud-sales" target="_blank" style="text-decoration: underline; color: #00FF00;">aquí</a> y te las resolvemos.' 
     },
     { 
       question: '¿Qué necesitamos para trabajar contigo?', 
@@ -83,7 +84,11 @@ const Works = () => {
     },
     { 
       question: '¿Cómo puedo empezar a trabajar con TRUD?', 
-      answer: 'Facilísimo:<br/><br/>1. Agendas una <a href="https://calendly.com/tu-enlace" target="_blank" style="text-decoration: underline; color: #00FF00;">sesión estratégica</a> con nosotros (sí, gratuita).<br/>2. Hablamos y analizamos qué necesitas.<br/>3. Si concuerda con nuestra visión y valores de marca, te daremos un sí o un no.<br/>4. Lo demás tendrás que descubrirlo.' 
+      answer: 'Facilísimo:<br/><br/>1. Agendas una <a href="https://calendly.com/josegomez-trudsales/sesion-de-cualificacion-trud-sales" target="_blank" style="text-decoration: underline; color: #00FF00;">sesión estratégica</a> con nosotros (sí, gratuita).<br/>2. Hablamos y analizamos qué necesitas.<br/>3. Si concuerda con nuestra visión y valores de marca, te daremos un sí o un no.<br/>4. Lo demás tendrás que descubrirlo.' 
+    },
+    { 
+      question: 'Quiero formarme como Appt. Setter o Closer', 
+      answer: 'Nuestro foco está en fluir desde la naturalidad, sin scripts de ventas absurdos. Si quieres apuntarte a la lista prioritaria, puedes enviarnos un mensaje <a href="https://wa.me/message/Z7OQRGD5WEYFO1" target="_blank" style="text-decoration: underline; color: #00FF00;">aquí</a>' 
     }
   ];
   
@@ -189,6 +194,12 @@ const Works = () => {
             </div>
             <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">Adrià</h2>
           </div>
+          <div className="w-[20%] flex justify-center items-center flex-col mb-[2rem]">
+            <div className="w-[150px] h-[150px] border-white border-2 rounded-full flex justify-center items-center overflow-hidden" id="equipo-img">
+              <img className="w-full rounded-full" src={daniela} alt="Tatiana Martin" />
+            </div>
+            <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">Daniela</h2>
+          </div>
         </div>
         <h2 className={`${styles.sectionHeadText} text-center color-verde`}>. . .</h2>
         <h2 className={`${styles.sectionHeadText} text-center mb-[2rem] color-verde`}>+15 personas</h2>
@@ -240,6 +251,8 @@ const Works = () => {
             <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">Elisabeth</h2>
           </div>
         </div>
+        <h2 className={`${styles.sectionHeadText} text-center color-verde`}>. . .</h2>
+        <h2 className={`${styles.sectionHeadText} text-center mb-[2rem] color-verde`}>+10 personas</h2>
 
         <h2 className={`${styles.sectionHeadText} text-center mb-[2rem]`}>Preguntas Frecuentes</h2>
         {faqs.map((faq, index) => (
