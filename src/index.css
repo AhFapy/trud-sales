@@ -214,10 +214,7 @@
 }
 
 @media only screen and (max-width: 1300px) {
-  #equipo-img {
-    width: 300px !important;
-    height: 300px !important;
-  }
+
   #header-tech {
     font-size: 3rem;
     margin-top: 12rem;
@@ -225,34 +222,44 @@
 }
 
 @media only screen and (max-width: 1000px) {
-  #equipo-img {
-    width: 200px !important;
-    height: 200px !important;
-
+  #cofounder {
+    width: 200px;
+    height: 200px;
   }
+  #directivos {
+    width: 175px;
+    height: 175px;
+  }
+
+  #equipo-img {
+    height: 100px;
+    width: 100px;
+  }
+
 }
 
 @media only screen and (max-width: 900px) {
-  #equipo-wrap {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+
 
   #equipo-sub {
     font-size: 15px;
   }
 
-  #equipo-img {
-    width: 250px !important;
-    height: 250px !important;
-  }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
+  #directivos {
+    width: 100px;
+    height: 100px;
+  }
+
+  #equipo-img {
+    height: 75px;
+    width: 75px;
+  }
+
   #equipo-sub {
-    font-size: 10px;
+    font-size: 7px;
   }
   /* #hero-header {
     font-size: 1.5rem;
@@ -363,6 +370,16 @@
     min-height: 60px;
     max-width: 150px;
     margin-top: 10rem; /* Aumento el margin-top para móviles */
+  }
+
+  #directivos {
+    width: 75px;
+    height: 75px;
+  }
+
+  #cofounder {
+    width: 125px;
+    height: 125px;
   }
 
   #box {

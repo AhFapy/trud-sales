@@ -106,13 +106,13 @@ const Works = () => {
         {/* Javi & José en una fila de 2 con márgenes y espacio entre ellas */}
         <div className="w-full flex justify-around items-center mb-[3.5rem] flex-wrap" id="equipo-wrap">
           <div className="w-[45%] sm:w-[20%] flex justify-center items-center flex-col mb-[2rem]">
-            <div className="w-[400px] h-[400px] z-10 border-white border-2 rounded-full flex justify-center items-center overflow-hidden" id="equipo-img">
+            <div className="w-[400px] h-[400px] z-10 border-white border-2 rounded-full flex justify-center items-center overflow-hidden" id="cofounder">
               <img className="w-full rounded-full" src={javi} alt="Javier Marco" />
             </div>
             <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">Javier Marco<br />Co-Founder</h2>
           </div>
           <div className="w-[45%] sm:w-[20%] flex justify-center items-center flex-col mb-[2rem]">
-            <div className="w-[400px] h-[400px] border-white border-2 rounded-full flex justify-center items-center overflow-hidden" id="equipo-img">
+            <div className="w-[400px] h-[400px] border-white border-2 rounded-full flex justify-center items-center overflow-hidden" id="cofounder">
               <img className="w-full rounded-full" src={jose} alt="José Gómez" />
             </div>
             <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">José Gómez<br />Co-Founder</h2>
@@ -123,14 +123,14 @@ const Works = () => {
         <h2 className={`${styles.sectionSubText} text-center mb-[2rem]`}>Encargados de la comunicación entre equipos, dirección de los mismos y decisión/toma de ordenes en Lanzamientos y Evergreens.</h2>
         <div className="w-full flex flex-wrap justify-center mb-[3.5rem]" id="equipo-wrap">
           <div className="w-[30%] flex justify-center items-center flex-col mb-[2rem]"> 
-              <div className="w-[200px] h-[200px] border-white border-2 rounded-full flex justify-center items-center overflow-hidden" id="equipo-img">
+              <div className="w-[200px] h-[200px] border-white border-2 rounded-full flex justify-center items-center overflow-hidden" id="directivos">
                 <img className="w-full rounded-full" src={monica} alt="Mónica Marco" />
               </div>
               <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">Mónica Marco</h2>
               <h2 className={`${styles.sectionSubText} text-center text-white`} id="equipo-sub">Directora Comercial</h2>
             </div>
             <div className="w-[30%] flex justify-center items-center flex-col mb-[2rem]">
-            <div className="w-[200px] h-[200px] border-white border-2 rounded-full flex justify-center items-center overflow-hidden" id="equipo-img">
+            <div className="w-[200px] h-[200px] border-white border-2 rounded-full flex justify-center items-center overflow-hidden" id="directivos">
               <img className="w-full rounded-full" src={ahfa} alt="Ahmed Mirza" />
             </div>
             <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">Ahmed Mirza</h2>
