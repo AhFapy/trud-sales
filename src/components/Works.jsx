@@ -126,7 +126,7 @@ const Works = () => {
               <div className="w-[200px] h-[200px] border-white border-2 rounded-full flex justify-center items-center overflow-hidden" id="directivos">
                 <img className="w-full rounded-full" src={monica} alt="Mónica Marco" />
               </div>
-              <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">Mónica Marco</h2>
+              <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">Mónica</h2>
               <h2 className={`${styles.sectionSubText} text-center text-white`} id="equipo-sub">Directora Comercial</h2>
             </div>
             <div className="w-[30%] flex justify-center items-center flex-col mb-[2rem]">
@@ -147,13 +147,13 @@ const Works = () => {
             <div className="w-[150px] h-[150px] border-white border-2 rounded-full flex justify-center items-center overflow-hidden" id="equipo-img">
               <img className="w-full rounded-full" src={tatiana} alt="Tatiana Martin" />
             </div>
-            <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">Tatiana Martin</h2>
+            <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">Tatiana</h2>
           </div>
           <div className="w-[20%] flex justify-center items-center flex-col mb-[2rem]">
             <div className="w-[150px] h-[150px] border-white border-2 rounded-full flex justify-center items-center overflow-hidden" id="equipo-img">
               <img className="w-full rounded-full" src={raul} alt="Luis de Pablos" />
             </div>
-            <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">Raúl Serrano</h2>
+            <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">Raúl</h2>
           </div>
           <div className="w-[20%] flex justify-center items-center flex-col mb-[2rem]">
             <div className="w-[150px] h-[150px] border-white border-2 rounded-full flex justify-center items-center overflow-hidden" id="equipo-img">
@@ -214,20 +214,20 @@ const Works = () => {
             <div className="w-[150px] h-[150px] border-white border-2 rounded-full flex justify-center items-center overflow-hidden" id="equipo-img">
               <img className="w-full rounded-full" src={Aida} alt="Aida Monago" />
             </div>
-            <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">Aida Monago</h2>
+            <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">Aida</h2>
           </div>
 
           <div className="w-[30%] flex justify-center items-center flex-col mb-[2rem]">
             <div className="w-[150px] h-[150px] border-white border-2 rounded-full flex justify-center items-center overflow-hidden" id="equipo-img">
               <img className="w-full rounded-full" src={luis} alt="Luis de Pablos" />
             </div>
-            <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">Luis de Pablos</h2>
+            <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">Luis</h2>
           </div>
           <div className="w-[30%] flex justify-center items-center flex-col mb-[2rem]">
             <div className="w-[150px] h-[150px] border-white border-2 rounded-full flex justify-center items-center overflow-hidden" id="equipo-img">
               <img className="w-full rounded-full" src={diana} alt="Tatiana Martin" />
             </div>
-            <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">Diana Salazar</h2>
+            <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">Diana</h2>
           </div>
         </div>
         <div className="w-full flex flex-wrap justify-around mb-[3.5rem]" id="equipo-wrap">
