@@ -28,6 +28,8 @@ import elisabeth from "../assets/fotos-equipo/Closers/eli.jpg"
 import clickImg from "../assets/click-img.webp"
 import Workflow from "./Workflow/Workflow"
 import FAQComponent from "./FAQ/FAQComponent"
+import testimonios1 from "../assets/testimonios1.jpg"
+import testimonios2 from "../assets/testimonios2.jpg"
 
 const ProjectCard = ({ index, name, description, tags, image, source_code_link, handleWindow }) => (
   <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -253,6 +255,15 @@ const Works = () => {
         </div>
         <h2 className={`${styles.sectionHeadText} text-center color-verde`}>. . .</h2>
         <h2 className={`${styles.sectionHeadText} text-center mb-[2rem] color-verde`}>+10 personas</h2>
+
+
+        <h2 className={`${styles.sectionHeadText} text-center mb-[2rem]`}>Algunas personas con las que hemos colaborado</h2>
+        <div>
+          <img src={testimonios1}></img>
+        </div>
+        <div className="mb-[2rem] mt-[2rem]">
+          <img src={testimonios2}></img>
+        </div>
 
         <h2 className={`${styles.sectionHeadText} text-center mb-[2rem]`}>Preguntas Frecuentes</h2>
         {faqs.map((faq, index) => (
