@@ -113,11 +113,12 @@ const Works = () => {
             </div>
             <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">Javier Marco<br />Co-Founder</h2>
           </div>
-          <div className="w-[45%] sm:w-[20%] flex justify-center items-center flex-col mb-[2rem]">
-            <div className="w-[400px] h-[400px] border-white border-2 rounded-full flex justify-center items-center overflow-hidden" id="cofounder">
-              <img className="w-full rounded-full" src={jose} alt="José Gómez" />
+          <div className="w-[30%] flex justify-center items-center flex-col mb-[2rem]">
+            <div className="w-[200px] h-[200px] border-white border-2 rounded-full flex justify-center items-center overflow-hidden" id="directivos">
+              <img className="w-full rounded-full" src={ahfa} alt="Ahmed Mirza" />
             </div>
-            <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">José Gómez<br />Co-Founder</h2>
+            <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">Ahmed Mirza</h2>
+            <h2 className={`${styles.sectionSubText} text-center text-white`} id="equipo-sub">Co-Owner</h2>
           </div>
         </div>
 
@@ -131,13 +132,6 @@ const Works = () => {
               <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">Mónica</h2>
               <h2 className={`${styles.sectionSubText} text-center text-white`} id="equipo-sub">Directora Comercial</h2>
             </div>
-            <div className="w-[30%] flex justify-center items-center flex-col mb-[2rem]">
-            <div className="w-[200px] h-[200px] border-white border-2 rounded-full flex justify-center items-center overflow-hidden" id="directivos">
-              <img className="w-full rounded-full" src={ahfa} alt="Ahmed Mirza" />
-            </div>
-            <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">Ahmed Mirza</h2>
-            <h2 className={`${styles.sectionSubText} text-center text-white`} id="equipo-sub">Director Creativo</h2>
-          </div>
           </div>
 
         {/* Resto del equipo en filas de 3 con espacio entre las columnas */}
