@@ -113,8 +113,8 @@ const Works = () => {
             </div>
             <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">Javier Marco<br />Co-Founder</h2>
           </div>
-          <div className="w-[30%] flex justify-center items-center flex-col mb-[2rem]">
-            <div className="w-[200px] h-[200px] border-white border-2 rounded-full flex justify-center items-center overflow-hidden" id="directivos">
+          <div className="w-[45%] sm:w-[20%] flex justify-center items-center flex-col mb-[2rem]">
+            <div className="w-[400px] h-[400px] z-10 border-white border-2 rounded-full flex justify-center items-center overflow-hidden" id="directivos">
               <img className="w-full rounded-full" src={ahfa} alt="Ahmed Mirza" />
             </div>
             <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">Ahmed Mirza</h2>
