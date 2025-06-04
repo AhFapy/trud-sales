@@ -48,7 +48,7 @@ const Contact = () => {
           </span> */}
       <div 
         className="calendly-inline-widget" 
-        data-url="https://calendly.com/josegomez-trudsales/sesion-de-cualificacion-trud-sales?primary_color=00ff27" 
+        data-url="https://calendly.com/javiermarco-trudsales/30min?primary_color=00ff27" 
         style={{ minWidth: "320px", width:"100%", height: "700px" }}>
       </div>
         </div>
