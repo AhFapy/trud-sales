@@ -1,6 +1,7 @@
 import { SectionWrapper } from "../hoc";
 import { styles } from "../style";
 import logo from "../assets/logo.png";
+import fotoAlejandro from "../assets/alejandro.jpg"
 
 const Tech = () => {
   return (
@@ -44,7 +45,62 @@ const Tech = () => {
               </span> <br /> <br />
             </div>
           </div>
+          
         </div>
+      
+{/* Caso de éxito destacado */}
+{/* Caso de éxito destacado */}
+{/* Caso de éxito destacado */}
+<section className="w-full max-w-7xl mt-10 px-4 sm:px-0">
+  <h2 className="text-3xl lg:text-4xl font-extrabold text-white mb-10 px-4 leading-tight text-center">
+    De<span className="text-[#00FF00]"> 0</span> a <span className="text-[#00FF00]">177.000€.</span> Cómo construimos una máquina de ventas sin funnels ni anuncios.
+  </h2>
+
+  <div className="bg-[#1a1a1a] rounded-2xl shadow-lg p-6 sm:p-10 flex flex-col sm:flex-row items-start gap-8">
+    {/* Lado izquierdo: contenido */}
+    <div className="flex-1">
+      <p className="text-[#00FF00] text-xl font-semibold mb-2">
+        Solamente con un equipo que escucha, entiende y sabe vender.
+      </p>
+
+      <p className="text-white text-base leading-relaxed mb-4">
+        Alejandro tenía una comunidad brutal. Pero no sabía cómo convertirla.  
+        En unas semanas, le montamos un equipo comercial desde cero: setters, closers y un sistema de seguimiento adaptado al dedillo.  
+        ¿El resultado? <span className="font-bold text-[#00FF00]">177.000 € facturados en el primer mes. </span>  
+         Sin presión. Sin trucos. Solo conversaciones reales y bien gestionadas.
+      </p>
+
+      <p className="font-semibold text-[#00FF00] mb-2">¿La clave?</p>
+      <ul className="list-disc list-inside text-white mb-4">
+        <li>Un equipo que conecta</li>
+        <li>Un proceso claro</li>
+        <li>Una gestión de operaciones que hace que todo fluya sin caos</li>
+      </ul>
+
+      <span className="font-semibold text-[#00FF00] mb-2">Y a nivel operativo:</span> <br/><br/>
+
+      <ul className="list-disc list-inside text-white mb-4">
+        <li>Cada lead sabe en qué punto está y qué necesita</li>
+        <li>Cada cierre viene de entender, no de empujar</li>
+        <li>Cada paso está pensado para que el negocio crezca sin perder el alma</li>
+      </ul>
+
+        Alejandro Bradshaw<span className="not-italic font-semibold text-[#00FF00]"> (@metodo.tiroides)</span>
+    </div>
+
+    {/* Lado derecho: imagen del caso */}
+    <div className="w-full sm:w-[300px]">
+      <img
+        src={fotoAlejandro} // reemplaza con la ruta real
+        alt="Caso de éxito Alejandro Bradshaw"
+        className="rounded-xl w-full object-cover h-[350px] sm:h-[275px]"
+      />
+    </div>
+  </div>
+</section>
+
+
+
       </main>
     </>
   );
