@@ -96,7 +96,6 @@ const Works = () => {
   
   return (
     <>      
-    <p className={`${styles.sectionSubText} text-center`}>My Work</p>
     <h2 className={`${styles.sectionHeadText} text-center`}>Nuestra metodología de trabajo</h2>
 
       <Workflow />
