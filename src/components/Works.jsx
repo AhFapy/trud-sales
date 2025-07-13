@@ -116,7 +116,7 @@ const Works = () => {
           <div className="w-[400px] h-[400px] z-10 border-white border-2 rounded-full flex justify-center items-center overflow-hidden" id="cofounder">
               <img className="w-full rounded-full" src={ahfa} alt="Ahmed Mirza" />
             </div>
-            <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">Ahmed Mirza</h2>
+            <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white object-fill`} id="equipo-sub">Ahmed Mirza</h2>
             <h2 className={`${styles.sectionSubText} text-center text-white`} id="equipo-sub">Co-Owner</h2>
           </div>
         </div>
