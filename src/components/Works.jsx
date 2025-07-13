@@ -8,7 +8,7 @@ import { fadeIn, textVariant } from "../utils/motion"
 import javi from "../assets/fotos-equipo/javi.jpg"
 import jose from "../assets/fotos-equipo/jose.jpg"
 import ines from "../assets/fotos-equipo/INES.png"
-import ahfa from "../assets/fotos-equipo/ahfa.jpg"
+import ahfa from "../assets/fotos-equipo/ahmed.jpeg"
 import monica from "../assets/fotos-equipo/MONICA.jpg"
 import joaquin from "../assets/fotos-equipo/Setters/joaquin.jpg"
 import Aida from "../assets/fotos-equipo/AIDA.png"
@@ -82,7 +82,7 @@ const Works = () => {
     },
     { 
       question: '¿Qué necesitamos para trabajar contigo?', 
-      answer: 'Seré breve y conciso, solo necesitas dos cosas:<br/><br/>1- Compromiso<br/>2- Ganas (de hacer dinero, de ayudar, de cambiar vidas)' 
+      answer: 'Seré breve y conciso, solo necesitas dos cosas:<br/><br/>1- Compromiso<br/>2- Ganas (de hacer dinero, de ayudar y de cambiar vidas)' 
     },
     { 
       question: '¿Cómo puedo empezar a trabajar con TRUD?', 
