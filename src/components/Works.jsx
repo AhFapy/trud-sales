@@ -229,7 +229,7 @@ const Works = () => {
         <h2 className={`${styles.sectionHeadText} text-center mb-[2rem] color-verde`}>+10 personas</h2>
 
 
-        <h2 className={`${styles.sectionHeadText} text-center mb-[2rem]`}>Algunas personas con las que hemos colaborado</h2>
+        <h2 className={`${styles.sectionHeadText} text-center mb-[2rem]`}>Algunos perfiles con los que hemos trabajado</h2>
         <div>
           <img src={testimonios1}></img>
         </div>
