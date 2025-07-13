@@ -197,7 +197,7 @@ const Works = () => {
           </div>
         </div>
         <h2 className={`${styles.sectionHeadText} text-center color-verde`}>. . .</h2>
-        <h2 className={`${styles.sectionHeadText} text-center mb-[2rem] color-verde`}>+15 personas</h2>
+        <h2 className={`${styles.sectionHeadText} text-center mb-[2rem] color-verde`}>+30 Setters</h2>
 
 
         {/* Tatiana, Aida, Luis */}
@@ -226,7 +226,7 @@ const Works = () => {
           </div>
         </div>
         <h2 className={`${styles.sectionHeadText} text-center color-verde`}>. . .</h2>
-        <h2 className={`${styles.sectionHeadText} text-center mb-[2rem] color-verde`}>+10 personas</h2>
+        <h2 className={`${styles.sectionHeadText} text-center mb-[2rem] color-verde`}>+15 Closers</h2>
 
 
         <h2 className={`${styles.sectionHeadText} text-center mb-[2rem]`}>Algunos perfiles con los que hemos trabajado</h2>
