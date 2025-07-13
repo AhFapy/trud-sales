@@ -18,7 +18,7 @@ function App() {
         <Tech/>
         <Works/>
         <div className='relative z-0'>
-          <Contact/>
+          {/* <Contact/> */}
         </div>
                 {/* Componente de sombra de cursor */}
                 <CursorShadow />
