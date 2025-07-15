@@ -191,7 +191,7 @@ const Works = () => {
           </div>
           <div className="w-[20%] flex justify-center items-center flex-col mb-[2rem]">
             <div className="w-[150px] h-[150px] border-white border-2 rounded-full flex justify-center items-center overflow-hidden" id="equipo-img">
-              <img className="w-full rounded-full" src={daniela} alt="Daniela" />
+              <img className="w-full rounded-full" src={leo} alt="Leo" />
             </div>
             <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">Daniela</h2>
           </div>
