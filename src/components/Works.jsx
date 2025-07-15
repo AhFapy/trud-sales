@@ -6,8 +6,8 @@ import { SectionWrapper } from "../hoc"
 import { projects } from "../constants"
 import { fadeIn, textVariant } from "../utils/motion"
 import javi from "../assets/fotos-equipo/javi.jpg"
-import jose from "../assets/fotos-equipo/jose.jpg"
-import ines from "../assets/fotos-equipo/INES.png"
+import leo from "../assets/fotos-equipo/leo.jpeg"
+import angie from "../assets/fotos-equipo/Angie.jpeg"
 import ahfa from "../assets/fotos-equipo/ahmed.jpg"
 import monica from "../assets/fotos-equipo/MONICA.jpg"
 import joaquin from "../assets/fotos-equipo/Setters/joaquin.jpg"
@@ -15,16 +15,16 @@ import Aida from "../assets/fotos-equipo/AIDA.png"
 import luis from "../assets/fotos-equipo/luis.png"
 import diana from "../assets/fotos-equipo/DIANA.jpg"
 import raul from "../assets/fotos-equipo/SERRANO.jpg"
-import adria from "../assets/fotos-equipo/adria.jpg"
+import marjorie from "../assets/fotos-equipo/marjorie.jpeg"
 import amos from "../assets/fotos-equipo/Setters/amos.jpeg"
 import carolina from "../assets/fotos-equipo/Setters/Carolina.jpeg"
 import cristina from "../assets/fotos-equipo/Setters/cristina.jpg"
 import daniela from "../assets/fotos-equipo/Setters/daniela.jpg"
 import maika from "../assets/fotos-equipo/Setters/maika.jpg"
 import may from "../assets/fotos-equipo/Setters/may.jpg"
-import alba from "../assets/fotos-equipo/Closers/alba.jpg"
-import ali from "../assets/fotos-equipo/Closers/ali.jpg"
-import elisabeth from "../assets/fotos-equipo/Closers/eli.jpg"
+import iago from "../assets/fotos-equipo/iago.jpeg"
+import mehdi from "../assets/fotos-equipo/mehdi.jpeg"
+import yousef from "../assets/fotos-equipo/yousef.jpg"
 import clickImg from "../assets/click-img.webp"
 import Workflow from "./Workflow/Workflow"
 import FAQComponent from "./FAQ/FAQComponent"
@@ -152,9 +152,9 @@ const Works = () => {
           </div>
           <div className="w-[20%] flex justify-center items-center flex-col mb-[2rem]">
             <div className="w-[150px] h-[150px] border-white border-2 rounded-full flex justify-center items-center overflow-hidden" id="equipo-img">
-              <img className="w-full rounded-full" src={amos} alt="Tatiana Martin" />
+              <img className="w-full rounded-full" src={marjorie} alt="Tatiana Martin" />
             </div>
-            <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">Amos</h2>
+            <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">Marjorie</h2>
           </div>
           <div className="w-[20%] flex justify-center items-center flex-col mb-[2rem]">
             <div className="w-[150px] h-[150px] border-white border-2 rounded-full flex justify-center items-center overflow-hidden" id="equipo-img">
@@ -167,15 +167,15 @@ const Works = () => {
         <div className="w-full flex flex-wrap justify-around mb-[3.5rem]" id="equipo-wrap">
           <div className="w-[20%] flex justify-center items-center flex-col mb-[2rem]">
             <div className="w-[150px] h-[150px] border-white border-2 rounded-full flex justify-center items-center overflow-hidden" id="equipo-img">
-              <img className="w-full rounded-full" src={cristina} alt="Tatiana Martin" />
+              <img className="w-full rounded-full" src={angie} alt="Tatiana Martin" />
             </div>
-            <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">Cristina</h2>
+            <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">Angie</h2>
           </div>
           <div className="w-[20%] flex justify-center items-center flex-col mb-[2rem]">
             <div className="w-[150px] h-[150px] border-white border-2 rounded-full flex justify-center items-center overflow-hidden" id="equipo-img">
-              <img className="w-full rounded-full" src={maika} alt="Luis de Pablos" />
+              <img className="w-full rounded-full" src={mehdi} alt="Mehdi" />
             </div>
-            <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">Maika</h2>
+            <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">Mehdi</h2>
           </div>
           <div className="w-[20%] flex justify-center items-center flex-col mb-[2rem]">
             <div className="w-[150px] h-[150px] border-white border-2 rounded-full flex justify-center items-center overflow-hidden" id="equipo-img">
@@ -185,13 +185,13 @@ const Works = () => {
           </div>
           <div className="w-[20%] flex justify-center items-center flex-col mb-[2rem]">
             <div className="w-[150px] h-[150px] border-white border-2 rounded-full flex justify-center items-center overflow-hidden" id="equipo-img">
-              <img className="w-full rounded-full" src={adria} alt="Tatiana Martin" />
+              <img className="w-full rounded-full" src={yousef} alt="Yousef" />
             </div>
-            <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">Adrià</h2>
+            <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">Yousef</h2>
           </div>
           <div className="w-[20%] flex justify-center items-center flex-col mb-[2rem]">
             <div className="w-[150px] h-[150px] border-white border-2 rounded-full flex justify-center items-center overflow-hidden" id="equipo-img">
-              <img className="w-full rounded-full" src={daniela} alt="Tatiana Martin" />
+              <img className="w-full rounded-full" src={daniela} alt="Daniela" />
             </div>
             <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">Daniela</h2>
           </div>
