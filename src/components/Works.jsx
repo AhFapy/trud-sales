@@ -19,8 +19,8 @@ import marjorie from "../assets/fotos-equipo/marjorie.jpeg"
 import amos from "../assets/fotos-equipo/Setters/amos.jpeg"
 import carolina from "../assets/fotos-equipo/Setters/Carolina.jpeg"
 import cristina from "../assets/fotos-equipo/Setters/cristina.jpg"
-import daniela from "../assets/fotos-equipo/Setters/daniela.jpg"
-import maika from "../assets/fotos-equipo/Setters/maika.jpg"
+import juan from "../assets/fotos-equipo/juan_lozano.jpeg"
+import xoana from "../assets/fotos-equipo/xoana.jpeg"
 import may from "../assets/fotos-equipo/Setters/may.jpg"
 import iago from "../assets/fotos-equipo/iago.jpeg"
 import mehdi from "../assets/fotos-equipo/mehdi.jpeg"
@@ -207,9 +207,9 @@ const Works = () => {
         <div className="w-full flex flex-wrap justify-around mb-[3.5rem]" id="equipo-wrap">
           <div className="w-[30%] flex justify-center items-center flex-col mb-[2rem]">
             <div className="w-[150px] h-[150px] border-white border-2 rounded-full flex justify-center items-center overflow-hidden" id="equipo-img">
-              <img className="w-full rounded-full" src={Aida} alt="Aida Monago" />
+              <img className="w-full rounded-full" src={juan} alt="Aida Monago" />
             </div>
-            <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">Aida</h2>
+            <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">Juan Lozano</h2>
           </div>
 
           <div className="w-[30%] flex justify-center items-center flex-col mb-[2rem]">
@@ -220,9 +220,9 @@ const Works = () => {
           </div>
           <div className="w-[30%] flex justify-center items-center flex-col mb-[2rem]">
             <div className="w-[150px] h-[150px] border-white border-2 rounded-full flex justify-center items-center overflow-hidden" id="equipo-img">
-              <img className="w-full rounded-full" src={diana} alt="Tatiana Martin" />
+              <img className="w-full rounded-full" src={xoana} alt="Tatiana Martin" />
             </div>
-            <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">Diana</h2>
+            <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">Xoana</h2>
           </div>
         </div>
         <h2 className={`${styles.sectionHeadText} text-center color-verde`}>. . .</h2>
