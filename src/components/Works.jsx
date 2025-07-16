@@ -28,7 +28,7 @@ import yousef from "../assets/fotos-equipo/yousef.jpg"
 import clickImg from "../assets/click-img.webp"
 import Workflow from "./Workflow/Workflow"
 import FAQComponent from "./FAQ/FAQComponent"
-import testimonios1 from "../assets/testimonios1.jpg"
+import testimonios1 from "../assets/testimonios1.png"
 import testimonios2 from "../assets/testimonios2.jpg"
 
 const ProjectCard = ({ index, name, description, tags, image, source_code_link, handleWindow }) => (
