@@ -13,7 +13,7 @@ import monica from "../assets/fotos-equipo/MONICA.jpg"
 import joaquin from "../assets/fotos-equipo/Setters/joaquin.jpg"
 import Aida from "../assets/fotos-equipo/AIDA.png"
 import luis from "../assets/fotos-equipo/luis.png"
-import diana from "../assets/fotos-equipo/DIANA.jpg"
+import jaime from "../assets/fotos-equipo/jaime-yamani.jpeg"
 import raul from "../assets/fotos-equipo/SERRANO.jpg"
 import marjorie from "../assets/fotos-equipo/marjorie.jpeg"
 import amos from "../assets/fotos-equipo/Setters/amos.jpeg"
@@ -205,24 +205,30 @@ const Works = () => {
         <h2 className={`${styles.sectionSubText} text-center mb-[2rem]`}>Encargados de comprender a las personas que han sido <b>filtradas</b>, <b>cualificadas</b> y elevadas el grado de conciencia por <b>el setter</b> para seguidamente ver si hay alguna manera de ayudar al posible cliente y <b>acabar vendiendole</b> una solución normalmente High Ticket. <b>Sí, todo esto automatizado</b>.
         </h2>
         <div className="w-full flex flex-wrap justify-around mb-[3.5rem]" id="equipo-wrap">
-          <div className="w-[30%] flex justify-center items-center flex-col mb-[2rem]">
+          <div className="w-[20%] flex justify-center items-center flex-col mb-[2rem]">
             <div className="w-[150px] h-[150px] border-white border-2 rounded-full flex justify-center items-center overflow-hidden" id="equipo-img">
               <img className="w-full rounded-full" src={juan} alt="Aida Monago" />
             </div>
             <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">Juan Lozano</h2>
           </div>
 
-          <div className="w-[30%] flex justify-center items-center flex-col mb-[2rem]">
+          <div className="w-[20%] flex justify-center items-center flex-col mb-[2rem]">
             <div className="w-[150px] h-[150px] border-white border-2 rounded-full flex justify-center items-center overflow-hidden" id="equipo-img">
               <img className="w-full rounded-full" src={luis} alt="Luis de Pablos" />
             </div>
             <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">Luis</h2>
           </div>
-          <div className="w-[30%] flex justify-center items-center flex-col mb-[2rem]">
+          <div className="w-[20%] flex justify-center items-center flex-col mb-[2rem]">
             <div className="w-[150px] h-[150px] border-white border-2 rounded-full flex justify-center items-center overflow-hidden" id="equipo-img">
               <img className="w-full rounded-full" src={xoana} alt="Tatiana Martin" />
             </div>
             <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">Xoana</h2>
+          </div>
+          <div className="w-[20%] flex justify-center items-center flex-col mb-[2rem]">
+            <div className="w-[150px] h-[150px] border-white border-2 rounded-full flex justify-center items-center overflow-hidden" id="equipo-img">
+              <img className="w-full rounded-full" src={jaime} alt="Tatiana Martin" />
+            </div>
+            <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">Jaime Yamani</h2>
           </div>
         </div>
         <h2 className={`${styles.sectionHeadText} text-center color-verde`}>. . .</h2>
