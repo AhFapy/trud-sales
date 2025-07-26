@@ -34,25 +34,12 @@ const Contact = () => {
 
   return (
     <div className="xl:mt-12 xl:flex-row flex-col-reverse flex-gap-10 overflow-hidden">
-      <motion.div
-      variants={slideIn("left", "tween", 0.2, 1)}
-      className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
-      >
-        <p className={styles.sectionSubText}>
-          ¿Quieres empezar a aumentar tus ventas? Comencemos.
-          <h3 className={styles.sectionHeadText}>Agenda Una Llamada Con Nosotros.<br/></h3>
+        <p className="text-2xl font-bold text-center">
+          ¿Quieres empezar a aumentar tus ventas?
         </p>
-        <div className="bg-none flex flex-row items-center">
-          {/* <span className="sm:text-[6vw] lg:text-[3vw]">
-          <FontAwesomeIcon icon={faEnvelope} />
-          </span> */}
-      <div 
-        className="calendly-inline-widget" 
-        data-url="https://calendly.com/javiermarco-trudsales/30min?primary_color=00ff27" 
-        style={{ minWidth: "320px", width:"100%", height: "700px" }}>
-      </div>
-        </div>
-      </motion.div>
+        <p className="text-2xl font-bold color-verde text-center mt-4">
+          <a href="https://app.trudsales.com/trabaja-con-nosotros">Pulsa Aquí</a>
+        </p>
     </div>
   )
 }
