@@ -100,7 +100,7 @@ const Works = () => {
 
       <Workflow />
 
-      <div className="w-full mt-[2rem] mb-[2rem]">
+      <div className="w-full mt-[2rem]">
         <h2 className={`${styles.sectionSubText} text-center mb-[2rem]`}>Equipo</h2>
         <h2 className={`${styles.sectionHeadText} text-center mb-[2rem]`}>Los Pilares de TRUD</h2>
 
