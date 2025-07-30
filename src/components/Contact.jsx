@@ -33,7 +33,7 @@ const Contact = () => {
 
 
   return (
-<div className="text-center mt-[-100px]">
+<div className="text-center mt-[-80px]">
   <h3
     className="text-[2rem] md:text-5xl font-semibold mb-8"
     style={{ color: '#00FF00' }}
