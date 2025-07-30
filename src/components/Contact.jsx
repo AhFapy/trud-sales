@@ -35,7 +35,7 @@ const Contact = () => {
   return (
 <div className="text-center mt-[-100px]">
   <h3
-    className="text-[2rem] md:text-5xl font-semibold mb-12"
+    className="text-[2rem] md:text-5xl font-semibold mb-8"
     style={{ color: '#00FF00' }}
   >
     ¿Qué eliges?
