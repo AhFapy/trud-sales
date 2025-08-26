@@ -47,7 +47,7 @@ const Contact = () => {
       className="bg-black text-center text-[#00FF00] w-full md:w-auto font-semibold py-3 px-6 rounded-lg border-2 transition-all duration-300 hover:text-black hover:bg-[#00FF00]"
       style={{ borderColor: '#00FF00' }}
     >
-      Empezar a trabajar con TRUD
+      Empezar a trabajar con TRUD (Empresas)
     </a>
 
     <a
