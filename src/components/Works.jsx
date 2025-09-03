@@ -117,7 +117,7 @@ const Works = () => {
               <img className="w-full rounded-full" src={ahfa} alt="Ahmed Mirza" />
             </div>
             <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white object-fill`} id="equipo-sub">Ahmed Mirza</h2>
-            <h2 className={`${styles.sectionSubText} text-center text-white`} id="equipo-sub">Co-Owner</h2>
+            <h2 className={`${styles.sectionSubText} text-center text-white`} id="equipo-sub">Co-Founder</h2>
           </div>
         </div>
 
