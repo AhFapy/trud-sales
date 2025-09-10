@@ -53,7 +53,7 @@ const Tech = () => {
 {/* Caso de éxito destacado */}
 <section className="w-full max-w-7xl mt-[6rem] px-4 sm:px-0">
   <h2 className="text-3xl lg:text-4xl font-extrabold text-white mb-10 px-4 leading-tight text-center">
-    De<span className="text-[#00FF00]"> 0</span> a <span className="text-[#00FF00]">177.000€.</span> Cómo construimos una máquina de ventas sin funnels ni anuncios.
+    De<span className="text-[#00FF00]"> vender consultas</span> a <span className="text-[#00FF00]">a hacer un x34</span> Cómo construimos una máquina de ventas sin funnels ni anuncios.
   </h2>
 
   <div className="bg-[#1a1a1a] rounded-2xl shadow-lg p-6 sm:p-10 flex flex-col sm:flex-row items-start gap-8">
@@ -66,7 +66,7 @@ const Tech = () => {
       <p className="text-white text-base leading-relaxed mb-4">
         Alejandro tenía una comunidad brutal. Pero no sabía cómo convertirla.  
         En unas semanas, le montamos un equipo comercial desde cero: setters, closers y un sistema de seguimiento adaptado al dedillo.  
-        ¿El resultado? <span className="font-bold text-[#00FF00]">177.000 € facturados en el primer mes. </span>  
+        ¿El resultado? <span className="font-bold text-[#00FF00]">Aumentó su facturación en un 3.440% en el primer mes. </span>  
          Sin presión. Sin trucos. Solo conversaciones reales y bien gestionadas.
       </p>
 
