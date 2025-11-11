@@ -121,18 +121,6 @@ const Works = () => {
           </div>
         </div>
 
-        <h2 className={`${styles.sectionHeadText} text-center mb-[1rem]`}>Parte de Nuestro Equipo</h2>
-        <h2 className={`${styles.sectionSubText} text-center mb-[2rem]`}>Encargados de la comunicación entre equipos, dirección de los mismos y decisión/toma de ordenes en Lanzamientos y Evergreens.</h2>
-        <div className="w-full flex flex-wrap justify-center mb-[3.5rem]" id="equipo-wrap">
-          <div className="w-[30%] flex justify-center items-center flex-col mb-[2rem]"> 
-              <div className="w-[200px] h-[200px] border-white border-2 rounded-full flex justify-center items-center overflow-hidden" id="directivos">
-                <img className="w-full rounded-full" src={monica} alt="Mónica Marco" />
-              </div>
-              <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">Mónica</h2>
-              <h2 className={`${styles.sectionSubText} text-center text-white`} id="equipo-sub">Directora Comercial</h2>
-            </div>
-          </div>
-
         {/* Resto del equipo en filas de 3 con espacio entre las columnas */}
 
         <h2 className={`${styles.sectionHeadText} text-center mb-[1rem]`}>Setters</h2>
@@ -155,12 +143,6 @@ const Works = () => {
               <img className="w-full rounded-full" src={marjorie} alt="Tatiana Martin" />
             </div>
             <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">Marjorie</h2>
-          </div>
-          <div className="w-[20%] flex justify-center items-center flex-col mb-[2rem]">
-            <div className="w-[150px] h-[150px] border-white border-2 rounded-full flex justify-center items-center overflow-hidden" id="equipo-img">
-              <img className="w-full rounded-full" src={carolina} alt="Tatiana Martin" />
-            </div>
-            <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">Carolina</h2>
           </div>
 
         </div>
@@ -212,12 +194,6 @@ const Works = () => {
             <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">Juan Lozano</h2>
           </div>
 
-          <div className="w-[20%] flex justify-center items-center flex-col mb-[2rem]">
-            <div className="w-[150px] h-[150px] border-white border-2 rounded-full flex justify-center items-center overflow-hidden" id="equipo-img">
-              <img className="w-full rounded-full" src={luis} alt="Luis de Pablos" />
-            </div>
-            <h2 className={`${styles.sectionSubText} text-center mt-[1rem] text-white`} id="equipo-sub">Luis</h2>
-          </div>
           <div className="w-[20%] flex justify-center items-center flex-col mb-[2rem]">
             <div className="w-[150px] h-[150px] border-white border-2 rounded-full flex justify-center items-center overflow-hidden" id="equipo-img">
               <img className="w-full rounded-full" src={xoana} alt="Tatiana Martin" />
